@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'OmuDaye';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #FDFDFB;
+  --primary: #FFB7B2;
+  --primary-accent: #FF7B7B;
+  --secondary: #BFFFD0;
+  --accent: #CFEAFF;
+  --warning: #FFF5B1;
+  --text: #444444;
+  --text-dark: #333333;
+  --card-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  font-family: 'OmuDaye', 'Noto Sans KR', sans-serif;
+}
+
+*, ::before, ::after {
+  font-family: 'OmuDaye', 'Noto Sans KR', -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'OmuDaye', 'Noto Sans KR', sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.font-display {
+  font-family: 'OmuDaye', sans-serif;
+}
+
+.card-vibrant-shadow {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+.card-vibrant-hover:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+

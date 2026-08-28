@@ -1,0 +1,6 @@
+{
+  "name": "우리 반 그래프 투표",
+  "description": "실시간 그래프 투표 프로그램",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
